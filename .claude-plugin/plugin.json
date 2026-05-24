@@ -1,0 +1,13 @@
+{
+  "name": "cc-notify-tool",
+  "version": "1.0.0",
+  "description": "Notificações multicanal para Claude Code no Windows: bell, toast e Telegram, com toggle por canal e som customizável.",
+  "author": {
+    "name": "Ad Soares",
+    "email": "adnilson.soares@gmail.com"
+  },
+  "homepage": "https://github.com/Codartia/claude-code-notify-tool",
+  "repository": "https://github.com/Codartia/claude-code-notify-tool",
+  "license": "MIT",
+  "keywords": ["notifications", "hooks", "windows", "telegram", "toast"]
+}
