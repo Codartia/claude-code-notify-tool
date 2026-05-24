@@ -1,0 +1,16 @@
+{
+  "name": "codartia",
+  "description": "Marketplace de plugins do Claude Code mantido pela Codartia.",
+  "owner": {
+    "name": "Codartia",
+    "email": "adnilson.soares@gmail.com",
+    "url": "https://github.com/Codartia"
+  },
+  "plugins": [
+    {
+      "name": "cc-notify-tool",
+      "source": "./",
+      "description": "Notificações multicanal para Claude Code no Windows: bell, toast e Telegram, com toggle por canal e som customizável."
+    }
+  ]
+}

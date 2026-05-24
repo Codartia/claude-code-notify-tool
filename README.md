@@ -21,9 +21,11 @@ Cada notificação identifica a instância pelo nome do projeto (`cwd`) e os úl
 
 ## Instalação
 
-```bash
-# No Claude Code:
-/plugin install https://github.com/Codartia/claude-code-notify-tool
+Este repo serve como **marketplace** e como **plugin** ao mesmo tempo (tem `marketplace.json` na raiz). Instalação em 2 passos no Claude Code:
+
+```
+/plugin marketplace add Codartia/claude-code-notify-tool
+/plugin install cc-notify-tool@codartia
 ```
 
 Depois, **uma vez**, rode o pós-instalador (configura `preferredNotifChannel` e cria o arquivo de config):
@@ -153,8 +155,9 @@ cc-notify-tool/
 
 ## Desinstalar
 
-```bash
-/plugin uninstall cc-notify-tool
+```
+/plugin uninstall cc-notify-tool@codartia
+/plugin marketplace remove codartia
 ```
 
 Reverter as mudanças no `settings.json`:
