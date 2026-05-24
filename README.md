@@ -24,9 +24,11 @@ Cada notificação identifica a instância pelo nome do projeto (`cwd`) e os úl
 Este repo serve como **marketplace** e como **plugin** ao mesmo tempo (tem `marketplace.json` na raiz). Instalação em 2 passos no Claude Code:
 
 ```
-/plugin marketplace add Codartia/claude-code-notify-tool
+/plugin marketplace add https://github.com/Codartia/claude-code-notify-tool
 /plugin install cc-notify-tool@codartia
 ```
+
+> O shorthand `Codartia/claude-code-notify-tool` força clone via SSH e exige chave SSH configurada com GitHub. A URL HTTPS completa funciona sem setup extra.
 
 Depois, **uma vez**, rode o pós-instalador (configura `preferredNotifChannel` e cria o arquivo de config):
 
